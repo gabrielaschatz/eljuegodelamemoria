@@ -83,7 +83,7 @@ function destapar(id){
         if(aciertos == 8){
             clearInterval(tiempoRegresivoId);
             mostrarAcietos.innerHTML = `Aciertos: ${aciertos} 😱 `;
-            mostrarTiempo.innerHTML = `¡Genial! 🥳 Sólo tardaste ${timerInicial = timer} segundos`;
+            mostrarTiempo.innerHTML = `¡Genial! 🥳 Sólo tardaste ${timerInicial - timer} segundos`;
             mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 😎🤟 `;
             }
         } else {
